@@ -1,6 +1,7 @@
 version: '2'
 services:
   app_apotik:
+    container_name: hello
     image: koharudin/php7.4
     volumes:
       - ./public:/var/www/html
